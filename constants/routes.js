@@ -1,0 +1,21 @@
+module.exports = {
+    STACK_BOTTOM_TAB : 'home',
+    STACK_SEARCH :"Search",
+    STACK_MASJID :'Masjid',
+    STACK_SCHEDULE:'MasjidPrayerSchedule',
+    BOTTOM_HOME:'Home',
+    BOTTOM_PRAYER:'Prayers',
+    BOTTOM_MASJID:'myMasjid',
+    BOTTOM_QIBLA:'Qibla',
+    BOTTOM_MORE:"More",
+    ONBOARDING_SCREEN1:'OnBoardingScreen1',
+    ONBOARDING_SCREEN2:'OnBoardingScreen2',
+    ONBOARDING_SCREEN3:'OnBoardingScreen3',
+    ONBOARDING_MAIN:'OnBoardingMain',
+    LOCATION_REQUEST1:'LocationRequest1',
+    LOCATION_DENIED:'DeniedLocationScreen',
+    QURAN_INDEX:'QuranIndex',
+    QURN_LISTEN_AND_READ:"QuranListenAndRead",
+    Prayer_Time_Screen: 'PrayerTimeScreen',
+    
+}

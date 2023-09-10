@@ -1,0 +1,124 @@
+import * as React from "react";
+import Svg, { G, Circle, Line, Defs } from "react-native-svg";
+/* SVGR has dropped some elements not supported by react-native-svg: filter */
+const SVGComponent = (props) => (
+  <Svg
+    width={551}
+    height={551}
+    viewBox="0 0 551 551"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <G filter="url(#filter0_d_837_2019)">
+      <Circle
+        cx={275.723}
+        cy={275.723}
+        r={140}
+        transform="rotate(23.9062 275.723 275.723)"
+        fill="#FFB641"
+        fillOpacity={0.25}
+        shapeRendering="crispEdges"
+      />
+    </G>
+    <Line
+      x1={370.635}
+      y1={358.013}
+      x2={355.26}
+      y2={345.222}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Line
+      x1={194.769}
+      y1={210.352}
+      x2={179.394}
+      y2={197.56}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Line
+      x1={399.761}
+      y1={296.083}
+      x2={380.028}
+      y2={292.826}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Line
+      x1={173.413}
+      y1={255.99}
+      x2={153.68}
+      y2={252.733}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Line
+      x1={349.37}
+      y1={201.008}
+      x2={363.047}
+      y2={186.415}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Line
+      x1={189.153}
+      y1={366.574}
+      x2={202.83}
+      y2={351.982}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Line
+      x1={301.937}
+      y1={174.488}
+      x2={306.486}
+      y2={155.012}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Line
+      x1={244.727}
+      y1={397.226}
+      x2={250.044}
+      y2={377.945}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Line
+      x1={243.114}
+      y1={176.667}
+      x2={237.013}
+      y2={157.62}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Line
+      x1={306.556}
+      y1={376.976}
+      x2={312.657}
+      y2={396.023}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Line
+      x1={395.235}
+      y1={241.157}
+      x2={376.188}
+      y2={247.258}
+      stroke="black"
+      strokeWidth={2}
+    />
+    <Circle
+      cx={276.173}
+      cy={276.173}
+      r={115}
+      transform="rotate(-17.761 276.173 276.173)"
+      stroke="#808080"
+      strokeWidth={20}
+      strokeDasharray="1.12 1.12"
+    />
+    <Defs></Defs>
+  </Svg>
+);
+export default SVGComponent;
